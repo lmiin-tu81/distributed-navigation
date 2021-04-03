@@ -24,8 +24,8 @@ header img {
 
 body {
   background-color: #fff;
-  margin: auto;
   margin: 0;
+  padding: auto;
   padding: 0;
 }
 
