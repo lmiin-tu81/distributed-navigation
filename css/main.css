@@ -12,12 +12,14 @@ html {
 header {
   background-color: #e2e2e2;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 
-img {
-  width: 2rem
+header img {
+  width: 2rem;
+  order: 1;
+  margin: 0 .5rem 0 1rem;
 }
 
 body {
@@ -26,11 +28,46 @@ body {
   padding: 0;
 }
 
-ul {
+nav ul {
   list-style-type: none;
+  display: flex;
+  margin: .75rem 0;
 }
 
-ul a {
+nav a {
   text-decoration: none;
   color: #0074d9;
+}
+
+ul li {
+  padding: 1rem;
+}
+
+header h1 {
+  order: 2;
+  margin: .75rem 5rem 0 0;
+  font-size: 1.75rem;
+}
+
+header p {
+  order: 3;
+  margin-right: 4rem;
+  padding: 0;
+  font-size: .9rem;
+}
+
+nav {
+  order: 4;
+}
+
+@media only screen and (min-width: 90em) {
+
+  header h1 {
+    margin: .75rem 19.5rem 0 0;
+  }
+
+  header p {
+    margin-right: 16.5rem;
+  }
+
 }
