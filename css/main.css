@@ -24,6 +24,7 @@ header img {
 
 body {
   background-color: #fff;
+  margin: auto;
   margin: 0;
   padding: 0;
 }
@@ -58,6 +59,10 @@ header p {
 
 nav {
   order: 4;
+}
+
+a:hover {
+  color: red;
 }
 
 @media only screen and (min-width: 90em) {
