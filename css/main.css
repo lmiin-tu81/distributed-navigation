@@ -25,14 +25,13 @@ header img {
 body {
   background-color: #fff;
   margin: 0;
-  padding: auto;
   padding: 0;
 }
 
 nav ul {
   list-style-type: none;
   display: flex;
-  margin: .75rem 0;
+  margin: .75rem auto;
 }
 
 nav a {
